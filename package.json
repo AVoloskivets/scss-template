@@ -1,0 +1,16 @@
+{
+  "name": "npm-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+		"build": "node-sass src/scss/main.scss css/app.css --output-style compressed",
+		"watch": "node-sass src/scss/main.scss css/app.css --watch"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}

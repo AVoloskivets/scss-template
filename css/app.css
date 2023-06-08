@@ -1,0 +1,11 @@
+h1 {
+  color: red; }
+
+img {
+  width: 400px; }
+
+.bg {
+  width: 400px;
+  height: 600px;
+  background-image: url(../src/images/image.jpg);
+  background-size: cover; }
